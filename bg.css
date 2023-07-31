@@ -1,0 +1,39 @@
+div{
+	background-image: url("hanuman.jpg");
+	height: 300px;
+	width: 200px;
+	border: 1px solid black
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+}
+span{
+	border-style: double;
+	border-width: 5px;
+	border-color: red blue green orange;
+	border-top-style: dotted;
+	border-right-style: dashed;
+	border-bottom-style: inset;
+    border-left-style: ridge;
+}
+h1{
+	border-style: double;
+	border-width: 5px;
+	border-color: red blue green orange;
+	border-radius: 10px;
+    width: 100px;
+}
+p{
+	border-style: double;
+	border-width: 5px;
+	border-color: red blue green orange;
+	border-top-style: dotted;
+	border-right-style: dashed;
+	border-bottom-style: inset;
+    border-left-style: ridge;
+}
+h2{
+	border: 10px dashed red;
+}
+
+

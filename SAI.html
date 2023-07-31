@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TASK</title>
+	<link rel="stylesheet" type="text/css" href="sai.css">
+</head>
+<body>
+	<table>
+		<thead>
+			<center>
+			<img src="epam.png">
+			</center>
+		</thead>
+		<h1>HTML Elements</h1>
+		<hr>
+		<div>
+		<a href="#home">HOME</a>
+		&nbsp
+		<a href="#header">HEADERS</a>
+		&nbsp
+		<a href="#table">TABLE</a>
+		&nbsp
+		<a href="#list">LIST</a>
+		&nbsp
+		<a href="#textformat">TEXT FORMATS</a>
+		&nbsp
+		<a href="#blockquote">BLOCKQUOTES</a>
+		&nbsp
+		<br>
+		<hr>
+		<p id="home">Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book. 
+        Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.</p>
+		<br>
+		<br>
+        <p>HTML is the markup language that you surround content with, to tell browsers about headings, lists, tables, and more. CSS is the stylesheet language that you style the page with, to tell browsers to change the color, font, layout, and more.</p>
+		<br>
+		<p id="header">
+		<h1>Header 1</h1>
+		<h2>Header 2</h2>
+		<h3>Header 3</h3>
+		<h4>Header 4</h4>
+		<h5>Header 2</h5>
+		<h6>Header 2</h6>
+	    </p>
+		<hr>
+		<p>CSS selectors are used to "find" (or select) the HTML elements you want to style.We can divide CSS selectors into five categories:</p>
+		<hr>
+		<h2 id="table">Table</h2>
+		<table  class="bordered-table">
+			<tr>
+				<td>Header</td>
+				<td>Header</td>
+				<td>Header</td>
+			</tr>
+			<tr>
+				<td>Lviv</td>
+				<td>Kyiv</td>
+				<td>Kharkiv</td>
+			</tr>
+			<tr>
+				<td>Odessa</td>
+				<td>Zhytomyr</td>
+				<td>Dnipro</td>
+			</tr>
+			<tr>
+				<td>Sumy</td>
+				<td>Chernivtsi</td>
+				<td>Lutsk</td>
+			</tr>
+	    </table>
+	    <br>
+	    
+	    <h2 id="list">Unordered List</h2>
+	    <br>
+	    <ul type="square">
+	    	<li>List item 1</li>
+	    	<li>List item 2
+	    		<ul type="square">
+	    		<li>Some nested list item 1</li>
+	    	</ul>
+	    	</li>
+	    	<li>List item 3</li>
+	    </ul>
+	    <br>
+	    <h2>Ordered List</h2>
+	    <br>
+	    <ol>
+	    	<li>List item 1</li>
+	    	<li>List item 2
+	    		<ol type="A">
+	    		<li>Some nested list item 1</li>
+	    	</ol>
+	    	</li>
+	    	<li>List item 3</li>
+	    </ol>
+
+	    <br>
+	    
+	    <h2>Definition list</h2>
+	    <br>
+	    <dl>
+	    	<dt><b>defines terms 1</b></dt>
+	    	<dt>description 1</dt>
+	    	<dt><b>defines terms 2</b></dt>
+	    	<dt>description 2</dt>
+	    </dl>
+	    <br>
+	    <br>
+	    <label>Details</label>
+	    <select>
+	    	<option>HTML</option>
+	    	<option>CSS</option>
+	    	<option>PYTHON</option>
+	    	<option>JAVA SCRIPT</option>
+	    </select>
+	    <hr>
+	    <br>
+	    <h2 id="textformat">Text formats</h2>
+	    <p><b>Article Text</b></p>
+	    <p>Article title</p>
+	    <p>Ariticle description</p>
+	    <br>
+	    <h2>Performatted text</h2>
+	    <div class="maha">
+	    	<center>
+	    		<br>
+	    		&nbsp<p>Text</p>
+	    		<p>in a pre element</p>
+	    		&nbsp
+	    		<p>is displayed in a fixed-width</p>
+	    		<p>font, and it preserves</p>
+	    		<p>both</p>
+	    		&nbsp
+	    		<p>spaces and</p>
+	    		&nbsp &nbsp
+	    		<p>line breaks</p>
+	    	</center>
+	    </div>
+	    	<br>
+	    	<h2 id="textformat">Code</h2>
+	    	<div class="maha">
+	    		<center>
+	    			<p>
+	    				<br>
+	    				<br>
+	    				<br>
+	    				.wrapper{
+		                display:flex;<br>
+		                vertical-align: middle;<br>
+		                justify-content: center;<br>
+	                    }
+	    			</p>
+	    		</center>
+	    		<br>
+	    		<br>
+	    	</div>
+	    </div>
+
+	    	
+	    <br>
+	    <br>
+	    <div>
+	    <h2 id="blockquote">Blockquotes</h2>
+	    <p>In both cases, the text will be rendered using a monospace font, and any indentation and line breaks will be preserved. The <pre> tag has some extra spacing applied by default, while the </p>
+	    </div>
+	    <hr>
+	    <form>
+	    <label>First name:</label>
+	    <input type="text"><br><br>
+	    <label>Surname:</label>
+	    <input type="text"><br><br>
+	    <label>Email:</label>
+	    <input type="Email:"><br><br>
+	    <textarea rows="10" cols="50"></textarea><br><br>
+	    <input type="submit"><br>
+	    </form>
+
+
+
+
+
+
+		
+	</table>
+
+</body>
+</html>

@@ -1,0 +1,43 @@
+img{
+	height: 200px;
+	width: 200px;
+	text-align: center;
+}
+.bordered-table {
+  border-collapse: collapse;
+  border: 1px solid black;
+  width: 100%;
+}
+.bordered-table td {
+  border: 1px solid black;
+  padding: 8px;
+  width: 10%;
+  height: 50px;
+}
+.maha {
+    background-color: lightgray;
+    padding: 20px;
+    text-align: center;
+}
+
+html{
+	border: 10px solid grey;
+}
+.nav-link {
+    display: block;
+    margin: 10px;
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.section {
+    display: none;
+}
+.section:target {
+    display: block;
+}
+form{
+	text-align: right;
+}
+
+

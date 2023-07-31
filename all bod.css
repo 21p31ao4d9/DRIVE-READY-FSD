@@ -1,0 +1,84 @@
+div {
+  width: 200px;
+  height: 100px;
+  margin-bottom: 100px;
+}
+
+.box1 {
+  border: 2px dotted black;
+   display: inline-block;
+  padding: 1rem 1rem 1rem;
+  vertical-align: middle;
+  margin-right: 50px;
+}
+
+.box2 {
+  border: 3px dashed black;
+   display: inline-block;
+  padding: 1rem 1rem 1rem;
+  vertical-align: middle;
+  margin-right: 50px;
+
+}
+
+.box3 {
+  border: 1px solid black;
+  display: inline-block;
+  padding: 1rem 1rem 1rem;
+  vertical-align: middle;
+  margin-right: 50px;
+}
+.box4 {
+  border-style: double;
+  display: inline-block;
+  padding: 1rem 1rem 1rem;
+  vertical-align: middle;
+  margin-right: 50px;
+}
+.box5 {
+  border-style: groove;
+  display: inline-block;
+  padding: 1rem 1rem 1rem;
+  vertical-align: middle;
+  margin-right: 50px;
+}
+.box6 {
+  border-style: ridge;
+  display: inline-block;
+  padding: 1rem 1rem 1rem;
+  vertical-align: middle;
+  margin-right: 50px;
+}
+.box7 {
+  border-style: inset;
+  display: inline-block;
+  padding: 1rem 1rem 1rem;
+  vertical-align: middle;
+  margin-right: 50px;
+}
+.box8 {
+  border-style: outset;
+  display: inline-block;
+  padding: 1rem 1rem 1rem;
+  vertical-align: middle;
+  margin-right: 50px;
+}
+.box9 {
+  border-style: none;
+  display: inline-block;
+  padding: 1rem 1rem 1rem;
+  vertical-align: middle;
+  margin-right: 50px;
+}
+.box10 {
+  border-style: hidden;
+  display: inline-block;
+  padding: 1rem 1rem 1rem;
+  vertical-align: middle;
+  margin-right: 50px;
+}
+
+
+
+
+

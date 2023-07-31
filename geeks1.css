@@ -1,0 +1,21 @@
+*{
+	background-color: green;
+}
+div{
+	height: 70%;
+	width:50%;
+	text-align: center;
+	background-color: white;
+	text-align: left;
+}
+input,label,select,textarea{
+	background-color: white;
+}
+.color1{
+	background-color: green;
+	width: 100%
+
+}
+textarea{
+	width: 50%
+}

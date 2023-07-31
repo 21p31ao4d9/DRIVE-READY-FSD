@@ -1,0 +1,16 @@
+.maha{
+	background-color: brown
+}
+.logo{
+	background-color: blue;
+	font-family: cursive;
+}
+nav ul{
+	float: right;
+	margin-right: 40px;
+}
+nav li{
+	display: inline-block;
+	line-height: 50px;
+
+}
